@@ -1,6 +1,5 @@
-import com.codeborne.selenide.Selectors.*
-import com.codeborne.selenide.Selenide.*
-import kotlin.io.encoding.encodingWith
+import com.codeborne.selenide.Selectors.byText
+import com.codeborne.selenide.Selenide.element
 
 // page_url = https://learningcontent.cisco.com/games/binary/index.html
 object BinaryGame {
@@ -19,5 +18,5 @@ object BinaryGame {
         return if (digits.text == "?") ProblemType.INT_INP else ProblemType.BINARY_REP
     }
 
-    
+
 }

@@ -1,7 +1,5 @@
 import com.codeborne.selenide.Selectors.byText
 import com.codeborne.selenide.Selenide.open
-import kotlin.math.floor
-import kotlin.math.log10
 
 const val URL = "https://learningcontent.cisco.com/games/binary/index.html"
 
@@ -34,7 +32,7 @@ fun main() {
 
                 println("Target: $target, Binary: $targetBinary")
 
-                var i = 0;
+                var i = 0
                 while (targetBinary > 0) {
                     if (targetBinary % 10 == 1) BinaryGame.bits.reversed()[i].click()
                     targetBinary /= 10
@@ -42,6 +40,7 @@ fun main() {
                 }
 
             }
+
             ProblemType.INT_INP -> {
                 val binaryState = BinaryGame.bits.joinToString("") { it.text }
                 val state = Integer.parseInt(binaryState, 2).toString()
