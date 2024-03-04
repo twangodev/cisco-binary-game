@@ -13,7 +13,7 @@ repositories {
 dependencies {
     testImplementation(kotlin("test"))
 
-    implementation("com.codeborne:selenide:6.19.1")
+    implementation("com.codeborne:selenide:7.2.0")
 }
 
 tasks.test {
