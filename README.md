@@ -2,7 +2,7 @@
 
 [![Kotlin CI with Gradle](https://github.com/twangodev/cisco-binary-game/actions/workflows/gradle.yml/badge.svg)](https://github.com/twangodev/cisco-binary-game/actions/workflows/gradle.yml)
 
-Automated script for playing the Cisco Binary Game, built with Kotlin and Selenide. It navigates through the game, solving binary representation problems.
+Automated script for playing the [Cisco Binary Game](https://learningcontent.cisco.com/games/binary/index.html), built with Kotlin and Selenide. It navigates through the game, solving binary representation problems.
 
 ### Prerequisites
 - JDK 8 or higher
